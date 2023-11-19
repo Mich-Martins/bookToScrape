@@ -3,8 +3,7 @@
 
 ### Objective:
 
-The objective of this web scraping project is to gather a diverse dataset of images from an online source (www.books.toscrape.com) for subsequent analysis, 
-such as training machine learning models, creating a custom image dataset, or generating insights from visual data.
+The objective of this web scraping project is to gather a diverse dataset of images from an online source (www.books.toscrape.com) for creating a custom image dataset.
 
 ### Project Idea: 
 Web Scraping Images for learning purpose from a website that permits image scraping.
@@ -28,7 +27,7 @@ developer tools can assist in inspecting web elements. However, chrome devtool w
 
 ### Python Libraries:
 
-Utilize the requests library to make HTTP requests to the website and the BeautifulSoup library for HTML parsing. os may be used for managing files.
+Utilize the requests, BeautifulSoup and os library to make HTTP requests to the website, BeautifulSoup library for HTML parsing and os to manage downloaded files.
 
 ### Scrape Image URLs:
 
@@ -36,12 +35,7 @@ Extract image URLs from the website's HTML. Depending on the website, this may i
 
 ### Download Images:
 
-Use the extracted image URLs to download images. Ensure proper handling of image formats (JPEG, PNG, etc.) and resolution.
-
-### Organize the Dataset:
-
-Categorize images into folders based on themes, styles, or any relevant criteria. Organized datasets are essential for subsequent analysis.
-Data Preprocessing:
+Use the extracted image URLs to download images. Ensuring proper handling of image formats (JPEG, PNG, etc.) and resolution.
 
 ### Project Applications:
 
